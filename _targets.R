@@ -2,7 +2,7 @@
 library(targets)
 source("R/myfunctions.R")
 
-tar_option_set(packages = c("biglm", "dplyr", "ggplot2", "readr"))
+tar_option_set(packages = c("biglm", "tidyverse"))
 
 list(
   tar_target(file, "data.csv", format = "file"),
